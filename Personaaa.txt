@@ -1,0 +1,47 @@
+import java.time.LocalDate;
+
+public class Personaaa {
+    public String name;
+    public int id;
+    public String nacionalidad;
+    public double altura;
+    public double peso;
+    public LocalDate nacimiento;
+
+    public String mostrar() {
+        String datosPersonaaa = this.name + " " + this.nacionalidad;
+        return datosPersonaaa;
+    }
+}
+
+public class Futbol {
+    public static void main(String args[]) {
+        Personaaa p1 = new Personaaa();
+        p1.nacimiento = LocalDate.of(1950, 03, 02);
+        p1.name = "Maduro";
+        p1.id = 1;
+        p1.nacionalidad = "Venezuela";
+        p1.altura = 1.93;
+        p1.peso = 81.3;
+
+        Personaaa p2 = new Personaaa();
+        p2.nacimiento = LocalDate.of(1970, 05, 15);
+        p2.name = "Mencho";
+        p2.id = 2;
+        p2.nacionalidad = "Mexico";
+        p2.altura = 1.78;
+        p2.peso = 75.5;
+
+        Personaaa p3 = new Personaaa();
+        p3.nacimiento = LocalDate.of(1965, 11, 20);
+        p3.name = "Ayatola";
+        p3.id = 3;
+        p3.nacionalidad = "Iran";
+        p3.altura = 1.85;
+        p3.peso = 79.2;
+
+        System.out.println(p1.mostrar());
+        System.out.println(p2.mostrar());
+        System.out.println(p3.mostrar());
+    }
+}
