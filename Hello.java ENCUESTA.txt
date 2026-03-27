@@ -1,0 +1,126 @@
+import java.util.Scanner;
+public class Hello {
+   public static void main (String args[]){
+   Scanner sc = new Scanner(System.in);
+      System.out.println("Hola, bienvenido a mi cuestionario");
+      System.out.println("¿Qué personaje de Harry Potter eres según tu mes de nacimiento?");
+      System.out.println("Ingresa el número correspondiente a tu mes de nacimiento (del 1 al 12)");
+      int mes = sc.nextInt();
+      if(mes==1) {
+      System.out.println("Eres Dobby el elfo mágico");
+      }
+      else if(mes==2) {
+      System.out.println("Eres Luna Lovegood");
+      }
+      else if(mes==3) {
+      System.out.println("Eres Ron Weasley");
+      }
+      else if(mes==4) {
+      System.out.println("Eres Ginny Weasley");
+      }
+      else if(mes==5) {
+      System.out.println("Eres Narcisa Malfoy");
+      }
+      else if(mes==6) {
+      System.out.println("Eres Harry Potter");
+      }
+      else if(mes==7) {
+      System.out.println("Eres Rubeus Hagrid");
+      }
+      else if(mes==8) {
+      System.out.println("Eres Remus Lupin");
+      }
+      else if(mes==9) {
+      System.out.println("Eres Voldemort");
+      }
+      else if(mes==10) {
+      System.out.println("Eres Hermione Granger");
+      }
+      else if(mes==11) {
+      System.out.println("Eres Neville Longbotom");
+      }
+      else {
+      System.out.println("Eres Albus Dumbledore");
+      }
+      System.out.println("¿Qué canción de Queen eres según el número que elijas del 1 al 5?");
+      System.out.println("Ingresa el número de tu elección (del 1 al 5)");
+      int n = sc.nextInt();
+      if(n==1) {
+      System.out.println("Eres una persona que va a la fija, tu canción es Another one bites the dust");
+      }
+      else if(n==2) {
+      System.out.println("Debes ser una persona romántica, tu canción es Good old-fashioned lover boy");
+      }
+      else if(n==3) {
+      System.out.println("Supongo que eres una persona que se encuentra en medio de aaaalgoo, entonces tu canción es I want to break free");
+      }
+      else if(n==4) {
+      System.out.println("Buen número, nada que decir, tu canción es Killer queen");
+      }
+      else {
+       System.out.println("Eres una persona líder o que llama la atención, eres Bohemian Rhapsody");
+      }
+
+      System.out.println("¿Qué película te gustaría ver según la canción que prefieras de Bad Bunny?");
+      System.out.println("1. Un coco / Amorfoda / Haciendo que me amas");
+      System.out.println("2. Caro / BOOKER T / Monaco ");
+      System.out.println("3. Andrea / Solo de mí / Perreo sola");
+      System.out.println("Ingresa el número de tu elección (del 1 al 3)");
+      int a = sc.nextInt();
+      if(a==1) {
+      System.out.println("Tu película es La la land, porfa supera a tu ex");
+      }
+      else if(a==2) {
+      System.out.println("Tu película es el lobo de Wall Street, excelente película");
+      }
+      else {
+      System.out.println("Tu película es mujercitas, hermosa película");
+      }
+      System.out.println("¿Qué pienso de tí según tu serie o película favorita?");
+      System.out.println("1. Gámbito de dama / Marty supreme / Baby driver");
+      System.out.println("2. Breaking Bad / Doctor House / Oppenheimer");
+      System.out.println("3. Una esposa de mentiras / Son como niños / ¿Y dónde están las rubias?");
+      System.out.println("Ingresa el número de tu elección (del 1 al 3)");
+      int b = sc.nextInt();
+      if(b==1) {
+      System.out.println("Tienes un buena gusto cinematográfico, te encanta ser bueno en lo que haces y eres una persona ambiciosa que no se rinde hasta conseguir lo que quiere");
+      }
+      else if(b==2) {
+      System.out.println("Porfa recomiéndame algo para ver. Eres una persona interesante, sensata y probablemente te gustan las ciencias. Además te gustan las series con personajes que impacten, que no subestimen al televidente y hagan pensar");
+      }
+      else {
+      System.out.println("Eres una persona con un espacio de comfort muy definido, sueles ser alegre y es fácil hacerte reír. Te encantaría ser amigo de Adam Sandler");
+      }
+      System.out.println("¿Qué red social eres según el anime que prefieras?");
+      System.out.println("1. Demon slayer ");
+      System.out.println("2. Attack on titan");
+      System.out.println("3. Naruto");
+      System.out.println("4. Dragon ball z");
+      System.out.println("5. La tumba de las luciérnagas");
+      System.out.println("6. Pokémon ");
+      System.out.println("7. El viaje de Chihiro / El increíble castillo vagabundo / La princesa Mononoke");
+      System.out.println("Ingresa el número de tu elección (del 1 al 7)");
+      int c = sc.nextInt();
+      if(c==1) {
+      System.out.println("Eres Instagram, te encanta tomarte fotos, eres una persona genial y eres amigo de todos. Te encantaron los gráficos de demon slayer.");
+      }
+      else if(c==2) {
+      System.out.println("Eres tik tok, todo tu fyp es de edits de attack on titan. Te obsesionaste con Levi o tienes un muy buen gusto");
+      }
+      else if(c==3) {
+      System.out.println("Eres WhatsApp, pues Naruto es ese anime que todos conocen, es buen anime y está en el corazón de varios");
+      }
+      else if(c==4) {
+      System.out.println("Eres Google, Dragon ball z es el papá de los animes ");
+      }
+      else if(c==5) {
+      System.out.println("Eres Twitter, por ser una película tan cruda, y basada en hechos reales ");
+      }
+else if(c==6) {
+      System.out.println("Eres Facebook");
+      }
+      else {
+      System.out.println("Eres Pinterest, das una linda impresión. Buenas películas ");
+      }
+}
+}
